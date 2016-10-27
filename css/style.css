@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,p,img,dt,dl,dd,input,a,select,button{margin:0;padding:0;font-family:arial,"微软雅黑","宋体"}
+a{text-decoration:none}
+ul,li{list-style:none;}
+img,input,textarea,button{border:none;}
+button{background-color:transparent}
+.clear:after{content:"200B";display:block;font-size:0;height:0;clear:both;}
+.clear{*zoom:1;}
+body{position:relative;}
+.header{height:32px;border-top:1px solid #aeaeaf;background:#f1f1f1;}
+.header .inner{width:1198px;margin:0 auto;}
+.header .inner form{float:left;padding-left:8px;font-size:12px;color:#747474;background:#f1f1f1;line-height:32px;}
+.header .inner form select{border:none;background:#f1f1f1;color:#747474;font-size:12px}
+.header .inner .subnav{float:right;padding-right:24px;}
+.header .inner .subnav li{float:left;margin:0 2px;line-height:32px;position:relative;color:#747474;font-size:12px}
+.header .inner .subnav li a{display:inline-block;padding:0 9px;color:#666666;font-size:12px}
+.header .inner .subnav li a i{font-size:25px;color:##635758;padding:4px 4px 0 0;float:left}
+.header .inner .subnav li a:hover{background:#fff;color:#c81623}
+.header .inner .subnav li a:hover .jiao{transform:rotate(180deg);}
+.header .inner .subnav li span{color:#c81623}
+.header .inner .subnav li a .jiao{width:10px;display:inline-block;text-align:center;line-height:20px;margin:0 2px 0 8px}
+.header .inner .subnav li:after{content:"";height:13px;width:2px;background:#e1e1e1;position:absolute;top:10px;right:-3px;}
+.top .banner{height:80px;background:#1a329c;}
+.top .banner .inner{width:1198px;margin:0 auto;padding:0 5px 0 7px;}
+.top .banner .inner img{width:1198px;}
+.top .nav{height:144px;border-bottom:2px solid #b1191a;}
+.top .nav .inner{width:1210px;margin:0 auto;}
+.top .nav .up{height:90px;}
+.top .nav .up .logo{float:left;padding:20px 92px 0 0;}
+.top .nav .up .center{float:left;}
+.top .nav .up .center form{margin-top:25px;border:2px solid #b61d1d;width:534px; }
+.top .nav .up form .text{height:32px;width:448px;padding:0 3px;line-height:32px;font-size:12px;color:#666;float:left}
+.top .nav .up form .submit{height:32px;width:80px;background:#b61d1d;line-height:32px;text-align:center;color:#FFFFFF;font-size:12px;cursor:pointer;}
+.top .nav .up .keyword a{line-height:29px;font-size:12px;color:#666;margin-right:8px;font-family:"宋体";display:inline-block;}
+.top .nav .up .keyword .first{color:#c81623;}
+.top .nav .up .keyword a:hover{color:#c81623;}
+.top .nav .up .buy{width:140px;height:34px;border:1px solid #dfdfdf;float:left;margin:25px 0 0 104px;position:relative;}
+.top .nav .up .buy a{width:100%;display:block;line-height:34px;padding-left:43px;font-size:12px;color:#666;background:url(../images/jd2015img.png) no-repeat 18px -49px;}
+.top .nav .up .buy a i{font-size:9px;line-height:34px;margin-left:20px;}
+.top .nav .up .buy .icon{height:14px;padding:0 5px;background:#c81623;border-radius:5px 5px 5px 0;line-height:14px;color:#FFFFFF;position:absolute;top:-4px;left:104px;font-size:12px;}
+.top .nav .down p{width:210px;line-height:44px;color:#FFFFFF;text-align:center;font-size:12px;float:left;background:#b1191a;padding-top:10px;}
+.top .nav .down ul{float:left;padding-top:10px;}
+.top .nav .down ul li{padding:0 20px;float:left;}
+.top .nav .down ul li a{line-height:44px;font-size:12px;color:#666}
+.top .nav .down .pic{margin-left:22px;float:left;height:54px}
+.top .nav .down ul li a:hover{color:#c81623}
+

@@ -1,0 +1,600 @@
+@charset "utf-8";
+/* CSS Document */
+.floor_nav{position:fixed;top:300px;display:none;z-index:2}
+.floor_nav p{color:#A6A6A6;text-align:center}
+.main{width:1210px;margin:0 auto;overflow:hidden;}
+#R{float:left;width:890px;}
+.main .content{width:1230px}
+.main .content .acmain4{height:209px;width:219px;border-right:1px solid #A2A2A2;border-bottom:1px solid #A2A2A2;float:left;text-align:center;padding-top:27px}
+.main .content .bcmain4{height:157px;width:219px;border-right:1px solid #A2A2A2;border-bottom:1px solid #A2A2A2;float:left;text-align:center}
+.main .content .acmain4 p{line-height:20px;text-align:center;font-size:12px;color:#666;padding:0 10px}
+.main .content .acmain4 span{line-height:20px;color:#FF0004;padding:10px 20px;text-align:left;display:block}
+.main .content .acmain5{height:209px;width:249px;border-right:1px solid #A2A2A2;border-bottom:1px solid #A2A2A2;float:left;text-align:center;padding-top:27px}
+.main .content .acmain5 p{line-height:20px;text-align:center;font-size:12px;color:#666;padding:0 10px}
+.main .content .acmain5 span{line-height:20px;color:#FF0004;padding:10px 20px;text-align:left;display:block}
+.main .content .acmain6{height:209px;width:219px;border-right:1px solid #A2A2A2;border-bottom:1px solid #A2A2A2;float:left;text-align:center;padding-top:27px}
+.main .content .acmain6 p{line-height:20px;text-align:center;font-size:12px;color:#666;padding:0 10px}
+.main .content .acmain6 span{line-height:20px;color:#FF0004;padding:10px 20px;text-align:left;display:block}
+.main .content .acmain7{height:209px;width:219px;border-right:1px solid #A2A2A2;border-bottom:1px solid #A2A2A2;float:left;text-align:center;padding-top:27px}
+.main .content .acmain7 p{line-height:20px;text-align:center;font-size:12px;color:#666;padding:0 10px}
+.main .content .acmain7 span{line-height:20px;color:#FF0004;padding:10px 20px;text-align:left;display:block}
+.main1_bj{height:628px;background:}
+.main .up{height:466px}
+.main1 .up .aside{width:210px;height:466px;float:left;background:#c81623;position:relative;z-index:4;border-left:1px solid #e70012;}
+.main1 .up .aside ul li{}
+.main1 .up .aside ul a{display:block;color:#FFFFFF;height:30px;line-height:30px;padding:0 12px 0 11px;font-size:12px;}
+.main1 .up .aside ul a:hover{background:#FFFFFF;color:#c81623;}
+.main1 .up .aside ul i{color:#FFFFFF;font-size:12px;float:right;line-height:30px;}
+.main1 .pupop{width:999px;min-height:465px;border:1px solid #e70012;border-top:none;position:absolute;top:0;left:208px;background:#f7f7f7;z-index:-1;display:none;}
+.main1 .pupop .left{width:798px;float:left;}
+.main1 .pupop .left .pass a{display:block;float:left;margin:19px 5px 0 15px;margin-bottom:16px;}
+.main1 .pupop .left .pass a p{line-height:20px;font-size:12px;color:#fff;padding:0 31px 0 8px;background:#7f6c65;display:block}
+.main1 .pupop .left .pass a i{display:block;background:#5d5153;margin-top:1px;float:right;font-size:12px;line-height:19px;padding:0 5px;color:#FFFFFF}
+.main1 .pupop .left .pass a:hover p{background:#FF6668;}
+.main1 .pupop .left .pass a:hover i{background:#B80003;}
+.main1 .pupop .left dl{padding:0 51px 16px 22px;}
+.main1 .pupop .left dl dt {float:left}
+.main1 .pupop .left dl dt a{color:#666;}
+.main1 .pupop .left dl dt a:hover{color:#c81623}
+.main1 .pupop .left dl dt p{width:49px;height:25px;overflow:hidden;line-height:25px;padding-right:33px;position:relative;float:right;font-size:12px;text-align:right;}
+.main1 .pupop .left dl dt i{font-size:12px;position:absolute;right:17px;top:0px;}
+.main1 .pupop .left dl dd{width:640px;padding-bottom:10px;border-bottom:1px solid #f2f2f2;float:left;}
+.main1 .pupop .left dl dd a{display:block;line-height:17px;padding:0 7px;font-size:12px;color:#666;border-left:1px solid #e9e9e9;margin-bottom:8px;float:left;}
+.main1 .pupop .left dl dd a:hover{color:#c81623}
+.main1 .pupop .right{margin:20px 20px 0 0;width:168px;float:right}
+.main1 .pupop .right .pingpai{margin-bottom:9px;}
+.main1 .pupop .right .pingpai .icon{float:right;margin-left:1px;margin-bottom:1px;}
+.main1 .pupop .right .pingpai .icon a{display:block;width:83px;height:35px;overflow:hidden}
+.main1 .pupop .right .pic{width:168px;margin-top:1px;}
+.main1 .up .news{width:730px;height:454px;margin:12px 10px 0 10px;float:left;overflow:hidden;position:relative;background:rgba(0,224,252,0.3s)}
+.main1 .up .news ul{position:absolute;bottom:5px;left:0;text-align:center;z-index:3;width:100%}
+.main1 .up .news ul a{display:inline-block;line-height:12px;color:#ccc;border-radius:50%;margin:0 5px;padding:5px}
+.main1 .up .news .inner{width:1460px;}
+.main1 .up .news button{display:block;line-height:16px;padding:10px 10px }
+.main1 .up .news button:nth-child(1){position:absolute;top:200px;left:0;z-index:5}
+.main1 .up .news button:nth-child(2){position:absolute;top:200px;right:0;z-index:5}
+.main1 .up .news .inner .pic{width:730px;height:454px;overflow:hidden;float:left;}
+.main1 .up .sidebar{width:248px;height:454px;margin-top:12px;float:left;}
+.main1 .up .sidebar dl{border:1px solid #e4e4e4;}
+.main1 .up .sidebar dl dt{font-size:16px;line-height:32px;padding-left:14px;border-bottom:1px dashed #666}
+.main1 .up .sidebar dl dt a{display:inline-block;float:right;padding-tight:15px;color:#666;}
+.main1 .up .sidebar dl dd{padding-left:14px;font-size:12px;line-height:24px;}
+.main1 .up .sidebar dl a{color:#666666;}
+.main1 .up .sidebar dl a:hover{color:#c81623;}
+.main1 .up .sidebar .icon{border:1px solid #e4e4e4;border-top:none;width:246px;height:208px;overflow:hidden}
+.main1 .up .sidebar .icon .subicon{height:30px;width:62px;border-right:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4;padding-top:40px;text-align:center;font-size:12px;color:#666;position:relative;float:left;line-height:30px;display:inline-block}
+.main1 .up .sidebar .icon .wai{width:260px;}
+.main1 .up .sidebar .icon .box1{height:25px;width:24px;position:absolute;top:13px;left:19px;background:url(../images/57620a6fN77b2b8af.png) no-repeat ;}
+.main1 .up .sidebar #right{width:59px;}
+.main1 .up .sidebar .icon .one{background-position:0 0;}
+.main1 .up .sidebar .icon .two{background-position:0 -25px ;}
+.main1 .up .sidebar .icon .three{background-position:0 -50px ;}
+.main1 .up .sidebar .icon .four{background-position:0 -75px ;}
+.main1 .up .sidebar .icon .five{background-position:0 -100px ;}
+.main1 .up .sidebar .icon .six{background-position:0 -125px ;}
+.main1 .up .sidebar .icon .seven{background-position: 0 -150px;}
+.main1 .up .sidebar .icon .eight{background-position: 0 -175px;}
+.main1 .up .sidebar .icon .nine{background-position:0 -200px ;}
+.main1 .up .sidebar .icon .ten{background-position:0 -225px ;}
+.main1 .up .sidebar .icon .eleven{background-position:0 -250px ;}
+.main1 .up .sidebar .icon .last{background-position:0 -275px ;}
+.main1 .up .sidebar .pic{padding:15px 0 0 0;height:100%;}
+.main1 .down{padding-top:10px;}
+.main1 .down .time{float:left;width:210px;height:151px;background:url(../images/_26.jpg);}
+.main1 .down .time p{text-align:center;font-size:16px;color:#fff;line-height:40px;}
+.main1 .down .time .yuan{height:51px;width:58px;margin:31px auto 0;background:#FFFFFF;border-radius:50%;padding-top:7px;position:relative;}
+.main1 .down .time .yuan:before{content:"";height:2px;width:20px;background:#FFFFFF;position:absolute;top:28px;left:9px;transform-origin:20px;animation:fenzheng 15s linear infinite;}
+.main1 .down .time .yuan:after{content:"";height:2px;width:15px;background:#FFFFFF;position:absolute;top:28px;left:14px;transform-origin:15px;animation:shizheng 30s linear infinite;}
+.main1 .down .time .yuan .neiyuan{height:44px;width:44px;margin:0 auto;border-radius:50%;background:url(../images/_26.jpg);}
+.time .yuan .neiyuan:after{content:"";height:7px;width:7px;border-radius:50%;transform-origin:29px;background:#5e5252;animation:miao 8s linear infinite;position:absolute;top:25px;left:0;}
+@keyframes miao{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+@keyframes fenzheng{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+@keyframes shizheng{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.main1 .down .tu{width:1220px;}
+.main1 .down .pic{float:left;weight:249px;margin-right:1px;}
+.main2 .title{width:1210px;height:69px;border-bottom:1px solid #d1d1d1;position:relative;}
+.main2 .title h3{font-size:20px;padding-top:28px;line-height:41px;float:left;position:relative;}
+.main2 .title h3:after{content:"";height:16px;width:196px;background:url(../images/_62.jpg);position:absolute;top:43px;right:-199px;}
+.main2 .title p{float:right;font-size:12px;color:#666;padding-top:30px;margin-right:26px;position:relative;line-height:38px;height:38px;width:36px;}
+.main2 .title p i{height:17px;width:14px;background:url(../images/_75.jpg);position:absolute;top:41px;right:-23px;display:block;}
+.main2 .wai{width:1208px;border:1px solid #ededed;border-top:none;overflow:hidden}
+.main2 ul{width:1220px;padding-bottom:9px;}
+.main2 ul li{float:left;width:202px;}
+.main2 ul li .thing{height:160px;text-align:center;line-height:160px;padding-top:20px}
+.main2 ul li p{height:62px;border-right:1px solid #ededed;padding:0 36px;font-size:12px;color:#666;line-height:18px;}
+.main2 ul li p span{font-size:17px;color:#b51d1a;font-weight:bold}
+.main2 .title .donghua{height:7px;width:365px;background:url(../images/homebg.png) no-repeat 0 -124px;position:absolute;top:67px;left:-365px;}
+.main2:hover .donghua{left:845px;transition:all 0.5s }
+.main2 .title .donghua2{height:7px;width:365px;background:url(../images/homebg.png) no-repeat 0 -124px;position:absolute;top:67px;left:845px;opacity:1}
+.main2:hover .donghua2{opacity:0;}
+.main3{padding:22px 0 20px 0;}
+.main3 h3{font-size:20px;line-height:34px;color:#666;}
+.main3 .big{width:402px;height:404px;border:1px solid #ededed;overflow:hidden;float:left;background:#f7f7f7}
+.main3 .big .top{width:402px;height:246px;border-bottom:1px solid #ededed;text-align:center;overflow:hidden;}
+.main3 .big .top h4{line-height:40px;font-size:16px;width:364px;display:inline-block;text-align:center;border-bottom:1px dashed #ededed;}
+.main3 .big .top .pic {position:relative}
+.main3 .big .top .pic img{width:402px;}
+.main3 .big .top .pic .text{position:absolute;top:50px;left:10px;}
+.main3 .big .top .pic .text h3{line-height:37px;font-weight:bold;font-size:16px;}
+.main3 .big .top .pic .text p{line-height:19px;font-size:12px;}
+.main3 .big .top .pic .text span{color:#c81623;font-size:12px;line-height:19px;}
+.main3 .big .down{width:401 px;}
+.main3 .big .down li{width:200px;border-right:1px solid #ededed;float:left;}
+.main3 .center{width:228px;height:404px;border-bottom:1px solid #ededed;border-top:1px solid #ededed;float:left;}
+.main3 .center .top{height:246px;border-bottom:1px solid #ededed;text-align:center;}
+.main3 .center h4{line-height:40px;font-size:16px;width:188px;display:inline-block;text-align:center;border-bottom:1px dashed #ededed;}
+.main3 .center .down{width:228px}
+.main3 .aside{float:left;width:173px;border:1px solid #ededed;border-left:none;height:405px;}
+.main3 .aside .content{height:381px;width:150px;margin:10px 0 0 10px;overflow:hidden;position:relative}
+.main3 .aside .content ul{width:153px;position:absolute;top:-10px;left:0;}
+.main3 .aside .content ul li{height:57px;width:75px;border-right:1px dashed #ededed;border-bottom:1px dashed #ededed;overflow:hidden;float:left;text-align:center;}
+.main3 .aside .content ul li img{width:65px;}
+.bannerbox{height:124px;width:1210px;margin:0 auto;transform-style:preserve-3d;perspective-origin:50% 50%;position:relative;animation:run 5s infinite;margin-bottom:18px}
+.bannerbox .banner2{height:124px;width:1209px;background:url(../images/chang2.png) no-repeat left top, url(../images/ch6.png) no-repeat center top, url(../images/ch3.jpg) no-repeat right top;position:absolute;left:0;top:0;transform:translatez(62px);}
+.bannerbox .banner3{height:124px;width:1209px;background:url(../images/ch8.jpg) no-repeat left top, url(../images/ch5.jpg) no-repeat center top, url(../images/ch2.jpg) no-repeat right top;;position:absolute;left:0;top:0;transform:rotatex(90deg) translatez(62px) }
+.bannerbox .banner4{height:124px;width:1209px;background:url(../images/ch7.png) no-repeat left top, url(../images/ch4.jpg) no-repeat center top, url(../images/ch1.jpg) no-repeat right top;;position:absolute;left:0;top:0;transform: translatez(-62px) }
+.bannerbox .banner5{height:124px;width:1209px;background:url(../images/ch10.jpg) no-repeat left top, url(../images/ch9.jpg) no-repeat center top, url(../images/chang3.jpg) no-repeat right top;;position:absolute;left:0;top:0;transform:rotatex(270deg) translatez(62px)}
+@keyframes run{0%{transform:rotatex(0deg)}25%{transform:rotatex(90deg)}50%{transform:rotatex(180deg)}75%{transform:rotatex(270deg)}100%{transform:rotatex(360deg)}}
+.main .nav{height:35px;border-bottom:1px solid #c81623;position:relative;}
+.main .nav h3{padding:0 0 3px 40px;line-height:32px;font-size:16px;position:relative;}
+.main .nav h3 i{display:block;background:url(../images/product_home_1.0.0.png) no-repeat left top;position:absolute;left:0;top:1px;height:25px;width:31px;color:#FFFFFF;font-size:15px;font-familt:"微软雅黑";font-style:normal;font-weight:normal;}
+.main .nav h3 i .hong{content:"";height:25px;width:31px;position:absolute;left:0;top:0;background:url(../images/product_home_1.0.0.png) no-repeat left -34px;transition:all 0.5s;color:#FFFFFF;font-size:15px;font-familt:"微软雅黑";font-style:normal;font-weight:normal;}
+.main:hover .nav h3 i .hong{height:0;}
+.main .nav ul{height:36px;border-right:1px solid #ededed;position:absolute;right:0 ;top:0}
+.main .nav ul:after{content:"";height:1px;width:637px;background:#ededed;position:absolute;top:0;left:0}
+.main .nav ul:before{content:"";height:34px;width:1px;background:#ededed;position:absolute;top:0;left:0}
+.main .nav ul li{float:right;margin-left:1px;position:relative;height:34px}
+.main .nav ul li:before{content:"";height:14px;width:1px;background:#ededed;position:absolute;top:10px;left:-1px;z-index:1}
+.main .nav ul li:after{content:"";height:14px;width:1px;background:#ededed;position:absolute;top:10px;right:-1px;z-index:2;opacity:0}
+.main .nav ul li a{display:block;line-height:34px;padding:0 17px;border-top:1px solid #ededed;font-size:12px;color:#666;position:relative}
+/*.main .nav ul .secound{border-top:3px solid #c81623;border-bottom:3px solid #FFFFFF;line-height:30px;color:#c81623;z-index:2}
+.main .nav ul .first:before{content:"";height:36px ;background:#c81623 ;top:0}
+.main .nav ul .first:after{content:"";height:36px ;background:#c81623;opacity:1;top:0}*/
+.main .nav ul li:hover a{border-top:3px solid #c81623;border-bottom:3px solid #FFFFFF;line-height:30px;z-index:2;color:#c81623}
+.main .nav ul li:hover:before{height:36px ;background:#c81623 ;top:0}
+.main .nav ul li:hover:after{height:36px ;background:#c81623;opacity:1;top:0}
+.main4 .content .left{height:633px;width:330px;float:left}
+.main4 .content .left .top{height:345px;width:330px;position:relative;overflow:hidden;}
+.main4 .content .left .top:after{content:"";height:30px;width:500px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );position:absolute;top:-30px;left:-300px;transform:rotate(-45deg);}
+.main4 .content .left .top:hover:after{top:344px;left:330px;transition:all 1s;}
+.main4 .content .left .top ul{height:92px;width:306px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.8) 30%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0.2) 100% );padding-left:24px;position:absolute;top:253px;left:0}
+.main4 .content .left .top ul li{float:left;}
+.main4 .content .left .top ul li a{width:69px;font-size:12px;line-height:46px;padding-left:31px;color:#666;display:block;position:relative;}
+.main4 .content .left .top ul li a:before{content:"";height:26px;width:26px;background:url(../images/clothesicon.png);position:absolute;top:10px;left:0;}
+.main4 .content .left .top ul li:nth-child(1) a:before{background-position:0 0;}
+.main4 .content .left .top ul li:nth-child(2) a:before{background-position:0 -26px;} 
+.main4 .content .left .top ul li:nth-child(3) a:before{background-position:0 -52px;}
+.main4 .content .left .top ul li:nth-child(4) a:before{background-position:0 -78px;}
+.main4 .content .left .top ul li:nth-child(5) a:before{background-position:0 -104px;}
+.main4 .content .left .top ul li:nth-child(6) a:before{background-position:0 -130px;}
+.main4 .content .left .zhong{background:#f5f5f5;height:128px;overflow:hidden; }
+.main4 .content .left .zhong ul{padding:16px 0 0 24px;float:left;width:135px;overflow:hidden;}
+.main4 .content .left .zhong ul li a{line-height:24px;font-size:12px;color:#999;margin-right:11px;}
+.main4 .content .left .zhong ul li a:hover{color:#c81623}
+.main4 .content .left .zhong ul li a span{color:#c81623;}
+.main4 .content .left .down{height:158px;border:1px solid #ededed;overflow:hidden;font-size:0;border-left:none;}
+.main4 .content .left .down img{width:328px;float:left}
+.main4 .content .center{width:440px;float:left;overflow:hidden}
+.main4 .content .center .top{height:157px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main4 .content .center .top img{height:157px;}
+.main4 .content .center .zhong{height:315px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main4 .content .center .zhong img{height:315px;}
+.main4 .content .center .down{height:158px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main4 .content .center .down img{height:158px;}
+.main4 .content .right{height:632px;width:438px;border:1px solid #ededed;border-left:none;border-top:none;overflow:hidden;float:left;}
+.main4 .content .right ul{width:442px;height:635px;margin-left:-3px;}
+.main4 .content .right ul li{height:157px;width:219px;float:right;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main4 .content .right ul .big{height:315px;width:219px;overflow:hidden}
+.main4 .content .right ul .big img{width:219px}
+.main4 .icon{height:52px;padding-top:14px;margin:10px auto 0;background:#f7f7f7;width:1208px;overflow:hidden;margin-bottom:22px;}
+.main4 .icon .list{width:1210px;}
+.main4 .icon a{display:block;height:37px;line-height:37px;text-align:center;border-right:1px dashed #ccc;width:120px;overflow:hidden;float:left;}
+.main5 .content .left{height:475px;width:210px;float:left}
+.main5 .content .left .top{height:329px;width:210px;position:relative;overflow:hidden;}
+.main5 .content .left .top:after{content:"";height:30px;width:500px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );position:absolute;top:-30px;left:-300px;transform:rotate(-45deg);}
+.main5 .content .left .top:hover:after{top:344px;left:329px;transition:all 1s;}
+.main5 .content .left .top ul{height:92px;width:210px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.8) 30%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0.2) 100% );padding-left:10px;position:absolute;top:237px;left:0}
+.main5 .content .left .top ul li{ float:left; }
+.main5 .content .left .top ul li a{width:67px;font-size:12px;line-height:26px;padding-left:31px;color:#666;display:block;position:relative;margin:10px 0;}
+.main5 .content .left .top ul li a:before{content:"";height:26px;width:26px;background:url(../images/clothesicon.png);position:absolute;top:0;left:0;}
+.main5 .content .left .top ul li:nth-child(1) a:before{background-position:0 0;}
+.main5 .content .left .top ul li:nth-child(2) a:before{background-position:0 -26px;} 
+.main5 .content .left .top ul li:nth-child(3) a:before{background-position:0 -52px;}
+.main5 .content .left .top ul li:nth-child(4) a:before{background-position:0 -78px;}
+.main5 .content .left .zhong{background:#f5f5f5;height:145px;}
+.main5 .content .left .zhong ul{padding:16px 0 0 22px;width:185px;overflow:hidden;}
+.main5 .content .left .zhong ul li a{line-height:24px;font-size:12px;color:#999;margin-right:8px;}
+.main5 .content .left .zhong ul li a:hover{color:#c81623}
+.main5 .content .left .zhong ul li a p{line-height:26px;font-size:14px;color:#666;margin-right:6px;display:inline-block}
+.main5 .content .left .zhong ul li a span{color:#c81623;}
+.main5 .content .center{width:340px;float:left;overflow:hidden}
+.main5 .content .center .top{height:296px;border-right:1px solid #ededed;border-bottom:1px dashed #ededed;}
+.main5 .content .center .top img{width:339px;}
+.main5 .content .center .down{height:176px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden}
+.main5 .content .center .down img{width:339px;height:176px;}
+.main5 .content .right{height:475px;width:220px;overflow:hidden;float:left;}
+.main5 .content .right .big{height:296px;width:219px;overflow:hidden;border-right:1px solid #ededed;border-bottom:1px solid #ededed;}
+.main5 .content .right .big img{height:296px;}
+.main5 .content .right .smail{width:219px;height:176px;overflow:hidden;border-right:1px solid #ededed;border-bottom:1px solid #ededed;}
+.main5 .content .right .smail img{height:176px;}
+.main5 .icon{height:52px;padding-top:14px;margin:10px auto 0;background:#f7f7f7;width:1208px;overflow:hidden;margin-bottom:22px;}
+.main5 .icon .list{width:1210px;}
+.main5 .icon a{display:block;height:37px;line-height:37px;text-align:center;border-right:1px dashed #ccc;width:120px;overflow:hidden;float:left;}.footer .top{height:94px;background:#f5f5f5;text-align:center;}
+.main6 .content .left{height:474px;width:330px;float:left;overflow:hidden}
+.main6 .content .left .top{height:283px;width:330px;position:relative;overflow:hidden;}
+.main6 .content .left .top:after{content:"";height:30px;width:500px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );position:absolute;top:-30px;left:-300px;transform:rotate(-45deg);}
+.main6 .content .left .top:hover:after{top:344px;left:329px;transition:all 1s;}
+.main6 .content .left .top ul{height:46px;width:306px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.8) 30%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0.2) 100% );padding-left:24px;position:absolute;top:237px;left:0}
+.main6 .content .left .top ul li{float:left;}
+.main6 .content .left .top ul li a{width:67px;font-size:12px;line-height:26px;padding-left:31px;color:#666;display:block;position:relative;margin:10px 0;}
+.main6 .content .left .top ul li a:before{content:"";height:26px;width:26px;background:url(../images/clothesicon.png);position:absolute;top:0;left:0;}
+.main6 .content .left .top ul li:nth-child(1) a:before{background-position:0 0;}
+.main6 .content .left .top ul li:nth-child(2) a:before{background-position:0 -26px;} 
+.main6 .content .left .top ul li:nth-child(3) a:before{background-position:0 -52px;}
+.main6 .content .left .zhong{background:#f5f5f5;height:191px;}
+.main6 .content .left .zhong ul{padding:22px 0 0 9px;width:145px;overflow:hidden;margin-left:10px;float:left;}
+.main6 .content .left .zhong ul li a{line-height:24px;font-size:12px;color:#999;margin-right:8px;}
+.main6 .content .left .zhong ul li a:hover{color:#c81623}
+.main6 .content .left .zhong ul li a p{line-height:24px;font-size:14px;color:#666;display:inline-block}
+.main6 .content .left .zhong ul li a span{color:#c81623;}
+.main6 .content .center{width:440px;height:474px;float:left;overflow:hidden}
+.main6 .content .center .top{height:236px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main6 .content .center .top img{height:236px;}
+.main6 .content .center .down{height:237px;overflow:hidden;}
+.main6 .content .center .down .pic{height:236px;width:219px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;float:left;overflow:hidden;}
+.main6 .content .center .down .pic img{height:236px;}
+.main6 .content .right{height:474px;width:440px;overflow:hidden;float:left;}
+.main6 .content .right ul{width:442px;height:474px;margin-left:-3px;}
+.main6 .content .right ul li{height:117px;width:219px;float:right;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main6 .content .right ul .big{height:237px;width:219px;overflow:hidden}
+.main6 .content .right ul .big img{width:219px}
+.main6 .icon{height:52px;padding-top:14px;margin:10px auto 0;background:#f7f7f7;width:1208px;overflow:hidden;margin-bottom:22px;}
+.main6 .icon .list{width:1210px;}
+.main6 .icon a{display:block;height:37px;line-height:37px;text-align:center;border-right:1px dashed #ccc;width:120px;overflow:hidden;float:left;}
+.main7 .content .left{height:474px;width:330px;float:left;overflow:hidden}
+.main7 .content .left .top{height:283px;width:330px;position:relative;overflow:hidden;}
+.main7 .content .left .top:after{content:"";height:30px;width:500px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );position:absolute;top:-30px;left:-300px;transform:rotate(-45deg);}
+.main7 .content .left .top:hover:after{top:344px;left:329px;transition:all 1s;}
+.main7 .content .left .top ul{height:46px;width:306px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.8) 30%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0.2) 100% );padding-left:24px;position:absolute;top:237px;left:0}
+.main7 .content .left .top ul li{float:left;}
+.main7 .content .left .top ul li a{width:67px;font-size:12px;line-height:26px;padding-left:31px;color:#666;display:block;position:relative;margin:10px 0;}
+.main7 .content .left .top ul li a:before{content:"";height:26px;width:26px;background:url(../images/clothesicon.png);position:absolute;top:0;left:0;}
+.main7 .content .left .top ul li:nth-child(1) a:before{background-position:0 0;}
+.main7 .content .left .top ul li:nth-child(2) a:before{background-position:0 -26px;} 
+.main7 .content .left .top ul li:nth-child(3) a:before{background-position:0 -52px;}
+.main7 .content .left .zhong{background:#f5f5f5;height:191px;}
+.main7 .content .left .zhong ul{padding:22px 0 0 9px;width:145px;overflow:hidden;margin-left:10px;float:left;}
+.main7 .content .left .zhong ul li a:hover{color:#c81623}
+.main7 .content .left .zhong ul li a{line-height:24px;font-size:12px;color:#999;margin-right:8px;}
+.main7 .content .left .zhong ul li a p{line-height:24px;font-size:14px;color:#666;display:inline-block}
+.main7 .content .left .zhong ul li a span{color:#c81623;}
+.main7 .content .center{width:440px;height:474px;float:left;overflow:hidden}
+.main7 .content .center .top{height:236px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main7 .content .center .top img{height:236px;}
+.main7 .content .center .down{height:237px;overflow:hidden;}
+.main7 .content .center .down .pic{height:236px;width:219px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;float:left;overflow:hidden;}
+.main7 .content .center .down .pic img{height:236px;}
+.main7 .content .right{height:474px;width:440px;overflow:hidden;float:left;}
+.main7 .content .right ul{width:442px;height:474px;margin-left:-3px;}
+.main7 .content .right ul li{height:117px;width:219px;float:right;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main7 .content .right ul .big{height:237px;width:219px;overflow:hidden}
+.main7 .content .right ul .big img{width:219px}
+.main7 .icon{height:52px;padding-top:14px;margin:10px auto 0;background:#f7f7f7;width:1208px;overflow:hidden;margin-bottom:22px;}
+.main7 .icon .list{width:1210px;}
+.main7 .icon a{display:block;height:37px;line-height:37px;text-align:center;border-right:1px dashed #ccc;width:120px;overflow:hidden;float:left;}
+.main8 .content .left{height:474px;width:330px;float:left;overflow:hidden}
+.main8 .content .left .top{height:283px;width:330px;position:relative;overflow:hidden;}
+.main8 .content .left .top:after{content:"";height:30px;width:500px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );position:absolute;top:-30px;left:-300px;transform:rotate(-45deg);}
+.main8 .content .left .top:hover:after{top:344px;left:329px;transition:all 1s;}
+.main8 .content .left .top ul{height:46px;width:306px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.8) 30%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0.2) 100% );padding-left:24px;position:absolute;top:237px;left:0}
+.main8 .content .left .top ul li{float:left;}
+.main8 .content .left .top ul li a{width:67px;font-size:12px;line-height:26px;padding-left:31px;color:#666;display:block;position:relative;margin:10px 0;}
+.main8 .content .left .top ul li a:before{content:"";height:26px;width:26px;background:url(../images/clothesicon.png);position:absolute;top:0;left:0;}
+.main8 .content .left .top ul li:nth-child(1) a:before{background-position:0 0;}
+.main8 .content .left .top ul li:nth-child(2) a:before{background-position:0 -26px;} 
+.main8 .content .left .top ul li:nth-child(3) a:before{background-position:0 -52px;}
+.main8 .content .left .zhong{background:#f5f5f5;height:191px;}
+.main8 .content .left .zhong ul{padding:22px 0 0 9px;width:145px;overflow:hidden;margin-left:10px;float:left;}
+.main8 .content .left .zhong ul li a{line-height:24px;font-size:12px;color:#999;margin-right:8px;}
+.main8 .content .left .zhong ul li a:hover{color:#c81623}
+.main8 .content .left .zhong ul li a p{line-height:24px;font-size:14px;color:#666;display:inline-block}
+.main8 .content .left .zhong ul li a span{color:#c81623;}
+.main8 .content .center{width:440px;height:474px;float:left;overflow:hidden}
+.main8 .content .center .top{height:236px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main8 .content .center .top img{height:236px;}
+.main8 .content .center .down{height:237px;overflow:hidden;}
+.main8 .content .center .down .pic{height:236px;width:219px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;float:left;overflow:hidden;}
+.main8 .content .center .down .pic img{height:236px;}
+.main8 .content .right{height:474px;width:440px;overflow:hidden;float:left;}
+.main8 .content .right ul{width:442px;height:474px;margin-left:-3px;}
+.main8 .content .right ul li{height:117px;width:219px;float:right;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main8 .content .right ul .big{height:237px;width:219px;overflow:hidden}
+.main8 .content .right ul .big img{width:219px}
+.main8 .icon{height:52px;padding-top:14px;margin:10px auto 0;background:#f7f7f7;width:1208px;overflow:hidden;margin-bottom:22px;}
+.main8 .icon .list{width:1210px;}
+.main8 .icon a{display:block;height:37px;line-height:37px;text-align:center;border-right:1px dashed #ccc;width:120px;overflow:hidden;float:left;}
+.main9 .content .left{height:474px;width:210px;float:left;overflow:hidden}
+.main9 .content .left .top{height:329px;width:210px;position:relative;overflow:hidden;}
+.main9 .content .left .top:after{content:"";height:30px;width:500px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );position:absolute;top:-30px;left:-300px;transform:rotate(-45deg);}
+.main9 .content .left .top:hover:after{top:344px;left:329px;transition:all 1s;}
+.main9 .content .left .top ul{height:92px;width:210px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.8) 30%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0.2) 100% );padding-left:10px;position:absolute;top:237px;left:0}
+.main9 .content .left .top ul li{float:left;}
+.main9 .content .left .top ul li a{width:67px;font-size:12px;line-height:26px;padding-left:31px;color:#666;display:block;position:relative;margin:10px 0;}
+.main9 .content .left .top ul li a:before{content:"";height:26px;width:26px;background:url(../images/clothesicon.png);position:absolute;top:0;left:0;}
+.main9 .content .left .top ul li:nth-child(1) a:before{background-position:0 0;}
+.main9 .content .left .top ul li:nth-child(2) a:before{background-position:0 -26px;} 
+.main9 .content .left .top ul li:nth-child(3) a:before{background-position:0 -52px;}
+.main9 .content .left .top ul li:nth-child(4) a:before{background-position:0 -78px;}
+.main9 .content .left .zhong{background:#f5f5f5;height:191px;}
+.main9 .content .left .zhong ul{padding:22px 0 0 9px;width:210px;overflow:hidden;margin-left:10px;float:left;}
+.main9 .content .left .zhong ul li a{line-height:24px;font-size:12px;color:#999;margin-right:8px;}
+.main9 .content .left .zhong ul li a:hover{color:#c81623}
+.main9 .content .left .zhong ul li a p{line-height:24px;font-size:14px;color:#666;display:inline-block}
+.main9 .content .left .zhong ul li a span{color:#c81623;}
+.main9 .content .center{width:219px;height:474px;float:left;overflow:hidden}
+.main9 .content .center .top{height:236px;border-bottom:1px solid #ededed;overflow:hidden;}
+.main9 .content .center .top img{height:236px;}
+.main9 .content .center .down{height:237px;overflow:hidden;}
+.main9 .content .center .down .pic{height:236px;width:219px;border-bottom:1px solid #ededed;float:left;overflow:hidden;}
+.main9 .content .center .down .pic img{height:236px;}
+.main9 .content .right{height:474px;width:340px;overflow:hidden;float:left;}
+.main9 .content .right ul{width:342px;height:480px;}
+.main9 .content .right ul li{height:236px;width:340px;border-right:1px solid #ededed;border-bottom:1px dashed #ededed;overflow:hidden;}
+.main9 .content .right ul .bottom{border-bottom:1px solid #ededed;}
+.main9 .content .last{float:left;width:439px;height:472px;border:1px solid #ededed;overflow:hidden;}
+.main9 .content .last ul{height:475px;width:442px;}
+.main9 .content .last ul li{float:left;border-right:1px solid #ededed;border-bottom:1px solid #ededed;height:236px;width:219px;overflow:hidden;}
+.main9 .icon{height:52px;padding-top:14px;margin:10px auto 0;background:#f7f7f7;width:1208px;overflow:hidden;margin-bottom:22px;}
+.main9 .icon .list{width:1210px;}
+.main9 .icon a{display:block;height:37px;line-height:37px;text-align:center;border-right:1px dashed #ccc;width:120px;overflow:hidden;float:left;}
+.main10 .content .left{height:474px;width:210px;float:left;overflow:hidden}
+.main10 .content .left .top{height:329px;width:210px;position:relative;overflow:hidden;}
+.main10 .content .left .top:after{content:"";height:30px;width:500px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );position:absolute;top:-30px;left:-300px;transform:rotate(-45deg);}
+.main10 .content .left .top:hover:after{top:344px;left:329px;transition:all 1s;}
+.main10 .content .left .top ul{height:92px;width:210px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.8) 30%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0.2) 100% );padding-left:10px;position:absolute;top:237px;left:0}
+.main10 .content .left .top ul li{float:left;}
+.main10 .content .left .top ul li a{width:67px;font-size:12px;line-height:26px;padding-left:31px;color:#666;display:block;position:relative;margin:10px 0;}
+.main10 .content .left .zhong ul li a:hover{color:#c81623}
+.main10 .content .left .top ul li a:before{content:"";height:26px;width:26px;background:url(../images/clothesicon.png);position:absolute;top:0;left:0;}
+.main10 .content .left .top ul li:nth-child(1) a:before{background-position:0 0;}
+.main10 .content .left .top ul li:nth-child(2) a:before{background-position:0 -26px;} 
+.main10 .content .left .top ul li:nth-child(3) a:before{background-position:0 -52px;}
+.main10 .content .left .top ul li:nth-child(4) a:before{background-position:0 -78px;}
+.main10 .content .left .zhong{background:#f5f5f5;height:191px;}
+.main10 .content .left .zhong ul{padding:22px 0 0 9px;width:210px;overflow:hidden;margin-left:10px;float:left;}
+.main10 .content .left .zhong ul li a{line-height:24px;font-size:12px;color:#999;margin-right:8px;}
+.main10 .content .left .zhong ul li a p{line-height:24px;font-size:14px;color:#666;display:inline-block}
+.main10 .content .left .zhong ul li a span{color:#c81623;}
+.main10 .content .center{width:219px;height:474px;float:left;overflow:hidden}
+.main10 .content .center .top{height:236px;border-bottom:1px solid #ededed;overflow:hidden;}
+.main10 .content .center .top img{height:236px;}
+.main10 .content .center .down{height:237px;overflow:hidden;}
+.main10 .content .center .down .pic{height:236px;width:219px;border-bottom:1px solid #ededed;float:left;overflow:hidden;}
+.main10 .content .center .down .pic img{height:236px;}
+.main10 .content .right{height:474px;width:340px;overflow:hidden;float:left;}
+.main10 .content .right ul{width:342px;height:480px;}
+.main10 .content .right ul li{height:236px;width:340px;border-right:1px solid #ededed;border-bottom:1px dashed #ededed;overflow:hidden;}
+.main10 .content .right ul .bottom{border-bottom:1px solid #ededed;}
+.main10 .content .last{float:left;width:439px;height:472px;border:1px solid #ededed;overflow:hidden;}
+.main10 .content .last ul{height:475px;width:442px;}
+.main10 .content .last ul li{float:left;border-right:1px solid #ededed;border-bottom:1px solid #ededed;height:236px;width:219px;overflow:hidden;}
+.main10 .icon{height:52px;padding-top:14px;margin:10px auto 0;background:#f7f7f7;width:1208px;overflow:hidden;margin-bottom:22px;}
+.main10 .icon .list{width:1210px;}
+.main10 .icon a{display:block;height:37px;line-height:37px;text-align:center;border-right:1px dashed #ccc;width:120px;overflow:hidden;float:left;}
+.main11 .content .left{height:474px;width:210px;float:left;overflow:hidden}
+.main11 .content .left .top{height:329px;width:210px;position:relative;overflow:hidden;}
+.main11 .content .left .top:after{content:"";height:30px;width:500px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );position:absolute;top:-30px;left:-300px;transform:rotate(-45deg);}
+.main11 .content .left .top:hover:after{top:344px;left:329px;transition:all 1s;}
+.main11 .content .left .top ul{height:92px;width:210px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.8) 30%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0.2) 100% );padding-left:10px;position:absolute;top:237px;left:0}
+.main11 .content .left .top ul li{float:left;}
+.main11 .content .left .top ul li a{width:67px;font-size:12px;line-height:26px;padding-left:31px;color:#666;display:block;position:relative;margin:10px 0;}
+.main11 .content .left .zhong ul li a:hover{color:#c81623}
+.main11 .content .left .top ul li a:before{content:"";height:26px;width:26px;background:url(../images/clothesicon.png);position:absolute;top:0;left:0;}
+.main11 .content .left .top ul li:nth-child(1) a:before{background-position:0 0;}
+.main11 .content .left .top ul li:nth-child(2) a:before{background-position:0 -26px;} 
+.main11 .content .left .top ul li:nth-child(3) a:before{background-position:0 -52px;}
+.main11 .content .left .top ul li:nth-child(4) a:before{background-position:0 -78px;}
+.main11 .content .left .zhong{background:#f5f5f5;height:191px;}
+.main11 .content .left .zhong ul{padding:22px 0 0 9px;width:210px;overflow:hidden;margin-left:10px;float:left;}
+.main11 .content .left .zhong ul li a{line-height:24px;font-size:12px;color:#999;margin-right:8px;}
+.main11 .content .left .zhong ul li a p{line-height:24px;font-size:14px;color:#666;display:inline-block}
+.main11 .content .left .zhong ul li a span{color:#c81623;}
+.main11 .content .center{width:219px;height:474px;float:left;overflow:hidden}
+.main11 .content .center .top{height:236px;border-bottom:1px solid #ededed;overflow:hidden;}
+.main11 .content .center .top img{height:236px;}
+.main11 .content .center .down{height:237px;overflow:hidden;}
+.main11 .content .center .down .pic{height:236px;width:219px;border-bottom:1px solid #ededed;float:left;overflow:hidden;}
+.main11 .content .center .down .pic img{height:236px;}
+.main11 .content .right{height:474px;width:340px;overflow:hidden;float:left;}
+.main11 .content .right ul{width:342px;height:480px;}
+.main11 .content .right ul li{height:236px;width:340px;border-right:1px solid #ededed;border-bottom:1px dashed #ededed;overflow:hidden;}
+.main11 .content .right ul .bottom{border-bottom:1px solid #ededed;}
+.main11 .content .last{float:left;width:439px;height:472px;border:1px solid #ededed;overflow:hidden;}
+.main11 .content .last ul{height:475px;width:442px;}
+.main11 .content .last ul li{float:left;border-right:1px solid #ededed;border-bottom:1px solid #ededed;height:236px;width:219px;overflow:hidden;}
+.main11 .icon{height:52px;padding-top:14px;margin:10px auto 0;background:#f7f7f7;width:1208px;overflow:hidden;margin-bottom:22px;}
+.main11 .icon .list{width:1210px;}
+.main11 .icon a{display:block;height:37px;line-height:37px;text-align:center;border-right:1px dashed #ccc;width:120px;overflow:hidden;float:left;}
+.main12 .content .left{height:474px;width:210px;float:left;overflow:hidden}
+.main12 .content .left .top{height:329px;width:210px;position:relative;overflow:hidden;}
+.main12 .content .left .top:after{content:"";height:30px;width:500px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );position:absolute;top:-30px;left:-300px;transform:rotate(-45deg);}
+.main12 .content .left .top:hover:after{top:344px;left:329px;transition:all 1s;}
+.main12 .content .left .top ul{height:92px;width:210px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.8) 30%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0.2) 100% );padding-left:10px;position:absolute;top:237px;left:0}
+.main12 .content .left .top ul li{float:left;}
+.main12 .content .left .top ul li a{width:67px;font-size:12px;line-height:26px;padding-left:31px;color:#666;display:block;position:relative;margin:10px 0;}
+.main12 .content .left .top ul li a:before{content:"";height:26px;width:26px;background:url(../images/clothesicon.png);position:absolute;top:0;left:0;}
+.main12 .content .left .top ul li:nth-child(1) a:before{background-position:0 0;}
+.main12 .content .left .top ul li:nth-child(2) a:before{background-position:0 -26px;} 
+.main12 .content .left .top ul li:nth-child(3) a:before{background-position:0 -52px;}
+.main12 .content .left .top ul li:nth-child(4) a:before{background-position:0 -78px;}
+.main12 .content .left .zhong{background:#f5f5f5;height:191px;}
+.main12 .content .left .zhong ul{padding:22px 0 0 9px;width:145px;overflow:hidden;margin-left:10px;float:left;}
+.main12 .content .left .zhong ul li a{line-height:24px;font-size:12px;color:#999;margin-right:8px;}
+.main12 .content .left .zhong ul li a:hover{color:#c81623}
+.main12 .content .left .zhong ul li a p{line-height:24px;font-size:14px;color:#666;display:inline-block}
+.main12 .content .left .zhong ul li a span{color:#c81623;}
+.main12 .content .center{width:219px;height:474px;float:left;overflow:hidden}
+.main12 .content .center .top{height:236px;border-bottom:1px solid #ededed;overflow:hidden;}
+.main12 .content .center .top img{height:236px;}
+.main12 .content .center .down{height:237px;overflow:hidden;}
+.main12 .content .center .down .pic{height:236px;width:219px;border-bottom:1px solid #ededed;float:left;overflow:hidden;}
+.main12 .content .center .down .pic img{height:236px;}
+.main12 .content .right{height:474px;width:340px;overflow:hidden;float:left;}
+.main12 .content .right ul{width:342px;height:480px;}
+.main12 .content .right ul li{height:236px;width:340px;border-right:1px solid #ededed;border-bottom:1px dashed #ededed;overflow:hidden;}
+.main12 .content .right ul .bottom{border-bottom:1px solid #ededed;}
+.main12 .content .last{float:left;width:439px;height:472px;border:1px solid #ededed;overflow:hidden;}
+.main12 .content .last ul{height:475px;width:442px;}
+.main12 .content .last ul li{float:left;border-right:1px solid #ededed;border-bottom:1px solid #ededed;height:236px;width:219px;overflow:hidden;}
+.main12 .icon{height:52px;padding-top:14px;margin:10px auto 0;background:#f7f7f7;width:1208px;overflow:hidden;margin-bottom:22px;}
+.main12 .icon .list{width:1210px;}
+.main12 .icon a{display:block;height:37px;line-height:37px;text-align:center;border-right:1px dashed #ccc;width:120px;overflow:hidden;float:left;}
+.main13 .content .left{height:474px;width:210px;float:left;overflow:hidden}
+.main13 .content .left .top{height:329px;width:210px;position:relative;overflow:hidden;}
+.main13 .content .left .top:after{content:"";height:30px;width:500px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );position:absolute;top:-30px;left:-300px;transform:rotate(-45deg);}
+.main13 .content .left .top:hover:after{top:344px;left:329px;transition:all 1s;}
+.main13 .content .left .top ul{height:92px;width:210px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.8) 30%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0.2) 100% );padding-left:10px;position:absolute;top:237px;left:0}
+.main13 .content .left .top ul li{float:left;}
+.main13 .content .left .top ul li a{width:67px;font-size:12px;line-height:26px;padding-left:31px;color:#666;display:block;position:relative;margin:10px 0;}
+.main13 .content .left .top ul li a:before{content:"";height:26px;width:26px;background:url(../images/clothesicon.png);position:absolute;top:0;left:0;}
+.main13 .content .left .top ul li:nth-child(1) a:before{background-position:0 0;}
+.main13 .content .left .top ul li:nth-child(2) a:before{background-position:0 -26px;} 
+.main13 .content .left .top ul li:nth-child(3) a:before{background-position:0 -52px;}
+.main13 .content .left .top ul li:nth-child(4) a:before{background-position:0 -78px;}
+.main13 .content .left .zhong{background:#f5f5f5;height:191px;}
+.main13 .content .left .zhong ul{padding:22px 0 0 9px;width:210px;overflow:hidden;margin-left:10px;float:left;}
+.main13 .content .left .zhong ul li a{line-height:24px;font-size:12px;color:#999;margin-right:8px;}
+.main13 .content .left .zhong ul li a:hover{color:#c81623}
+.main13 .content .left .zhong ul li a p{line-height:24px;font-size:14px;color:#666;display:inline-block}
+.main13 .content .left .zhong ul li a span{color:#c81623;}
+.main13 .content .center{width:219px;height:474px;float:left;overflow:hidden}
+.main13 .content .center .top{height:236px;border-bottom:1px solid #ededed;overflow:hidden;}
+.main13 .content .center .top img{height:236px;}
+.main13 .content .center .down{height:237px;overflow:hidden;}
+.main13 .content .center .down .pic{height:236px;width:219px;border-bottom:1px solid #ededed;float:left;overflow:hidden;}
+.main13 .content .center .down .pic img{height:236px;}
+.main13 .content .right{width:440px;height:474px;float:left;overflow:hidden}
+.main13 .content .right .top{height:236px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main13 .content .right .top img{height:236px;}
+.main13 .content .right .down{height:237px;overflow:hidden;}
+.main13 .content .right .down .pic{height:236px;width:219px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;float:left;overflow:hidden;}
+.main13 .content .right .down .pic img{height:236px;}
+.main13 .content .last{width:339px;height:473px;border:1px solid #ededed;float:left;text-align:center;}
+.main13 .content .last dl{width:321px;display:inline-block;padding-top:5px;overflow:hidden;}
+.main13 .content .last dl dt{line-height:41px;color:#666;font-size:16px;padding-left:5px;border-bottom:1px solid #ededed;margin-right:6px;text-align:left;}
+.main13 .content .last dl dd{height:79px;width:325px;margin-top:22px;overflow:hidden;}
+.main13 .content .last dl dd .pic{width:72px;height:31px;border-right:1px dashed #ededed;padding-top:48px;text-align:center;font-size:12px;color:#666;line-height:30px;overflow:hidden;float:left;position:relative;}
+.main13 .content .last dl dd:nth-of-type(1) .pic:before{content:"";height:48px;width:48px;background:url(../images/57182721N8c58eb38.jpg);background-size:cover;border-radius:50%;position:absolute;top:0;left:9px;}
+.main13 .content .last dl dd:nth-of-type(2) .pic:before{content:"";height:48px;width:48px;background:url(../images/56a0976eNd12a634f.jpg);background-size:cover;border-radius:50%;position:absolute;top:0;left:9px;}
+.main13 .content .last dl dd:nth-of-type(3) .pic:before{content:"";height:48px;width:48px;background:url(../images/56a0988aNf5e28b15.jpg);background-size:cover;border-radius:50%;position:absolute;top:0;left:9px;}
+.main13 .content .last dl dd:nth-of-type(4) .pic:before{content:"";height:48px;width:48px;background:url(../images/5710c428N82344344.jpg);background-size:cover;border-radius:50%;position:absolute;top:0;left:9px;}
+.main13 .content .last dl dd .text{float:left;}
+.main13 .content .last dl dd .text .zuo{width:98px;float:left;overflow:hidden;}
+.main13 .content .last dl dd .text .zuo img{height:79px;}
+.main13 .content .last dl dd .text .you{float:left;width:150px;}
+.main13 .content .last dl dd .text .you .shang{line-height:22px;font-size:12px;color:#666;text-align:left;}
+.main13 .content .last dl dd .text .you .xia{background:#f8f8f8;line-height:18px;color:#999;padding:10px 20px 10px 0;font-size:12px;font-family:"宋体"}
+.main13 .icon{height:52px;padding-top:14px;margin:10px auto 0;background:#f7f7f7;width:1208px;overflow:hidden;margin-bottom:22px;}
+.main13 .icon .list{width:1210px;}
+.main13 .icon a{display:block;height:37px;line-height:37px;text-align:center;border-right:1px dashed #ccc;width:120px;overflow:hidden;float:left;}
+.main14 .content .left{height:474px;width:330px;float:left;overflow:hidden}
+.main14 .content .left .top{height:283px;width:330px;position:relative;overflow:hidden;}
+.main14 .content .left .top:after{content:"";height:30px;width:500px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );position:absolute;top:-30px;left:-300px;transform:rotate(-45deg);}
+.main14 .content .left .top:hover:after{top:344px;left:329px;transition:all 1s;}
+.main14 .content .left .top ul{height:46px;width:306px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.8) 30%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0.2) 100% );padding-left:24px;position:absolute;top:237px;left:0}
+.main14 .content .left .top ul li{float:left;}
+.main14 .content .left .top ul li a{width:67px;font-size:12px;line-height:26px;padding-left:31px;color:#666;display:block;position:relative;margin:10px 0;}
+.main14 .content .left .top ul li a:before{content:"";height:26px;width:26px;background:url(../images/clothesicon.png);position:absolute;top:0;left:0;}
+.main14 .content .left .top ul li:nth-child(1) a:before{background-position:0 0;}
+.main14 .content .left .top ul li:nth-child(2) a:before{background-position:0 -26px;} 
+.main14 .content .left .top ul li:nth-child(3) a:before{background-position:0 -52px;}
+.main14 .content .left .zhong{background:#f5f5f5;height:191px;}
+.main14 .content .left .zhong ul{padding:22px 0 0 9px;width:145px;overflow:hidden;margin-left:10px;float:left;}
+.main14 .content .left .zhong ul li a{line-height:24px;font-size:12px;color:#999;margin-right:8px;}
+.main14 .content .left .zhong ul li a:hover{color:#c81623}
+.main14 .content .left .zhong ul li a p{line-height:24px;font-size:14px;color:#666;display:inline-block}
+.main14 .content .left .zhong ul li a span{color:#c81623;}
+.main14 .content .center{width:440px;height:474px;float:left;overflow:hidden}
+.main14 .content .center .top{height:236px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main14 .content .center .top img{height:236px;}
+.main14 .content .center .down{height:237px;overflow:hidden;}
+.main14 .content .center .down .pic{height:236px;width:219px;border-right:1px solid #ededed;border-bottom:1px solid #ededed;float:left;overflow:hidden;}
+.main14 .content .center .down .pic img{height:236px;}
+.main14 .content .right{height:474px;width:440px;overflow:hidden;float:left;}
+.main14 .content .right ul{width:442px;height:474px;margin-left:-3px;}
+.main14 .content .right ul li{height:117px;width:219px;float:right;border-right:1px solid #ededed;border-bottom:1px solid #ededed;overflow:hidden;}
+.main14 .content .right ul .big{height:237px;width:219px;overflow:hidden}
+.main14 .content .right ul .big img{width:219px}
+.main14 .icon{height:52px;padding-top:14px;margin:10px auto 0;background:#f7f7f7;width:1208px;overflow:hidden;margin-bottom:22px;}
+.main14 .icon .list{width:1210px;}
+.main14 .icon a{display:block;height:37px;line-height:37px;text-align:center;border-right:1px dashed #ccc;width:120px;overflow:hidden;float:left;}
+.main15 .content .left{height:472px;width:210px;float:left;overflow:hidden}
+.main15 .content .left .top{height:329px;width:210px;position:relative;overflow:hidden;}
+.main15 .content .left .top:after{content:"";height:30px;width:500px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );background-image:-webkit-linear-gradient(bottom,rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.7) 50%,rgba(255,255,255,0.1) 100% );position:absolute;top:-30px;left:-300px;transform:rotate(-45deg);}
+.main15 .content .left .top:hover:after{top:344px;left:329px;transition:all 1s;}
+.main15 .content .left .top ul{height:92px;width:210px;background-image:-moz-linear-gradient(bottom,rgba(255,255,255,0.8) 30%,rgba(255,255,255,0.6) 50%,rgba(255,255,255,0.2) 100% );padding-left:10px;position:absolute;top:237px;left:0}
+.main15 .content .left .top ul li{}
+.main15 .content .left .top ul li a{width:67px;font-size:12px;line-height:26px;padding-left:31px;color:#666;display:block;position:relative;margin:10px 0;}
+.main15 .content .left .top ul li a:before{content:"";height:26px;width:26px;background:url(../images/clothesicon.png);position:absolute;top:0;left:0;}
+.main15 .content .left .top ul li:nth-child(1) a:before{background-position:0 0;}
+.main15 .content .left .top ul li:nth-child(2) a:before{background-position:0 -26px;} 
+.main15 .content .left .top ul li:nth-child(3) a:before{background-position:0 -52px;}
+.main15 .content .left .top ul li:nth-child(4) a:before{background-position:0 -78px;}
+.main15 .content .left .zhong{background:#f5f5f5;height:191px;}
+.main15 .content .left .zhong ul{padding:22px 0 0 9px;width:210px;overflow:hidden;margin-left:10px;float:left;}
+.main15 .content .left .zhong ul li a{line-height:24px;font-size:12px;color:#999;margin-right:8px;}
+.main15 .content .left .zhong ul li a:hover{color:#c81623}
+.main15 .content .left .zhong ul li a p{line-height:24px;font-size:14px;color:#666;display:inline-block}
+.main15 .content .left .zhong ul li a span{color:#c81623;}
+.main15 .content .right{float:left;width:395px;}
+.main15 .content .right .top{width:395px;height:238px;border-bottom:1px solid #f5f5f5;}
+.main15 .content .right .down ul li{height:116px;width:196px;float:left;overflow:hidden;border-right:1px solid #f5f5f5;border-bottom:1px solid #f5f5f5;}
+.main15 .icon{height:52px;padding-top:14px;margin:10px auto 0;background:#f7f7f7;width:1208px;overflow:hidden;margin-bottom:22px;}
+.main15 .icon .list{width:1210px;}
+.main15 .icon a{display:block;height:37px;line-height:37px;text-align:center;border-right:1px dashed #ccc;width:120px;overflow:hidden;float:left;}
+.main16{margin:-6px auto 20px;}
+.main16 .left{float:left;}
+.main16 dl{width:899px;height:281px;border:1px solid #e5e5e5;overflow:hidden;}
+.main16 .left h3{line-height:39px;font-size:16px;color:#666;}
+.main16 dl .box{height:283px;width:920px;}
+.main16 dl dd:nth-child(1){width:239px;height:281px;border-right:1px solid #e5e5e5;float:left;overflow:hidden}
+.main16 dl dd:nth-child(1) a{display:block;height:140px;padding:100px 50px;transition:all 0.5s;}
+.main16 dl dd{width:219px;height:140px;border-right:1px solid #e5e5e5;float:left;border-bottom:1px solid #e5e5e5;overflow:hidden;position:relative;}
+.main16 dl dd a{display:block;height:140px;padding:50px 50px;transition:all 0.5s;}
+.main16 dl dd a:hover{padding-left:30px;}
+.main16 dl dd .text{position:absolute;top:20px;left:20px;}
+.main16 dl dd .text h4{line-height:20px;font-size:14px;color:#666;}
+.main16 dl dd .text span{line-height:20px;font-size:12px;color:red;}
+.main16 .right{float:left;}
+.main16 .right h3{line-height:39px;font-size:16px;color:#666;}
+.main16 ul{width:307px;height:281px;border:1px solid #e5e5e5;overflow:hidden;}
+.main16 ul li{height:130px;}
+.main16 ul li .pic{width:120px;height:100%;overflow:hidden;float:left;}
+.main16 ul li .pic img{width:100px;}
+.main16 ul li .text{width:187px;overflow:hidden;float:left;}
+.main16 ul li .text .top{height:32px;padding-left:36px;line-height:27px;font-size:12px;color:#666;position:relative;margin-bottom:5px;}
+.main16 ul li .text .top:before{content:"";width:27px;height:27px;border-radius:50%;background:url(../images/5750d440N520c5b77.jpg);position:absolute;top:0;left:0;}
+.main16 ul li .text p{padding:10px 25px 8px 20px;background:#f8f8f8;font-size:12px;line-height:18px;color:#666;width:120px;}
+.footer .top a{padding-left:48px;font-size:20px;margin:0 40px;position:relative;display:inline-block;height:94px;color:#333; }
+.footer .top a p{padding-right:11px;line-height:94px;display:inline-block;}
+.footer .top a:before{content:"";height:44px;width:39px;background:url(../images/jpg_257.jpg);position:absolute;top:25px;left:0;}
+.footer .center{width:1210px;margin:0 auto;padding:15px 0 0 0;background:url(../images/20130330B_1.png) no-repeat 955px -120px;height:187px}
+.footer .center dl{float:left;width:199px;background:transparent;}
+.footer .center .you{width:185px;}
+.footer .center dl dt a{line-height:35px;font-size:16px;color:#666;}
+.footer .center dl dd a{line-height:20px;font-size:12px;color:#666;}
+.footer .center dl dd a:hover{color:#c81623;}
+.footer .center dl p{padding-top:10px;width:183px;line-height:20px;font-size:12px;color:#666;background:transparent;}
+.footer .center dl>a{display:block;line-height:line-height:20px;font-size:12px;color:#666;float:right;padding-right:9px;background:transparent;}
+.footer .center dl>a:hover{color:#c81623;}
+.footer .but{text-align:center;border-top:1px solid #e5e5e5;width:1210px;margin:0 auto;}
+.footer .but .link{display:inline-block;line-height:36px;height:36px;padding-top:11px;}
+.footer .but .link a{padding:0 12px;font-size:12px;color:#666;}
+.footer .but .link a:hover{color:#c81623;}
+.footer .but .link span{color:#9e669e;font-size:10px;display:inline;}
+.footer .but p{line-height:20px;color:#666;font-size:12px;}
+.footer .but p a{color:#666;padding-left:22px;position:relative}
+.footer .but p a:hover{color:#c81623;}
+.footer .but p a i{height:20px;width:18px;background:url(../images/56a0a994Nf1b662dc.png) ;position:absolute;left:0;top:-3px;}
+.footer .but .list{text-align:center;margin-top:10px;display:inline-block;margin-bottom:32px;}
+.footer .but .list a{margin-left:13px;}
